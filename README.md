@@ -1,3 +1,3 @@
-https://www.desmos.com/3d/09xe4tosis
+2D: https://www.desmos.com/calculator/xyl8arx9ty
 
-https://www.desmos.com/calculator/xyl8arx9ty
+3D: https://www.desmos.com/3d/1kv9eswkhk
