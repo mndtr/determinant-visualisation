@@ -1,0 +1,23 @@
+O=\left(0,0\right)
+Folder: Vectors a and b
+A=\left(6.47,3.09\right)
+B=\left(2,5\right)
+\operatorname{polygon}\left(O,A\right)
+\operatorname{polygon}\left(O,B\right)
+% ↓det(a; b)
+A.xB.y-A.yB.x
+% Shapes:
+\operatorname{polygon}\left(A,A+B\right)
+\operatorname{polygon}\left(B,A+B\right)
+\operatorname{polygon}\left(O,A,A+B,B\right)
+\operatorname{polygon}\left(O,\left(0,B.y\right),B\right)
+\operatorname{polygon}\left(A,A+B,A+\left(B.x,0\right)\right)
+\operatorname{polygon}\left(B,A+B,B+\left(0,A.y\right)\right)
+\operatorname{polygon}\left(O,A,\left(A.x,0\right)\right)
+\operatorname{polygon}\left(\left(0,B.y\right),B,B+\left(0,A.y\right),\left(0,A.y+B.y\right)\right)
+\operatorname{polygon}\left(\left(A.x,0\right),A,A+\left(B.x,0\right),\left(A.x+B.x,0\right)\right)
+
+Folder: BS [not related to the topic]
+\operatorname{polygon}\left(A,A-A\cdot0.05\cos\theta_{0}+\left(A.y,-A.x\right)\cdot0.05\sin\theta_{0},A-A\cdot0.05\cos\theta_{0}-\left(A.y,-A.x\right)\cdot0.05\sin\theta_{0}\right)
+\operatorname{polygon}\left(B,B-B\cdot0.05\cos\theta_{0}-\left(B.y,-B.x\right)\cdot0.05\sin\theta_{0},B-B\cdot0.05\cos\theta_{0}+\left(B.y,-B.x\right)\cdot0.05\sin\theta_{0}\right)
+\theta_{0}=\frac{\pi}{20}
